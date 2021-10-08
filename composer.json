@@ -1,30 +1,30 @@
 {
-    "name": "boursecast/nova-list-card",
-    "description": "List Nova Resources",
-    "keywords": [
-        "laravel",
-        "nova"
-    ],
-    "license": "MIT",
-    "require": {
-        "php": ">=7.1.0",
-        "watson/aggregate": "4.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "NovaListCard\\": "src/"
-        }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "NovaListCard\\CardServiceProvider"
-            ]
-        }
-    },
-    "config": {
-        "sort-packages": true
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+  "name": "boursecast/nova-list-card",
+  "description": "List Nova Resources",
+  "keywords": [
+    "laravel",
+    "nova"
+  ],
+  "license": "MIT",
+  "require": {
+    "php": "^8.0.2",
+    "watson/aggregate": "4.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "NovaListCard\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "NovaListCard\\CardServiceProvider"
+      ]
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
